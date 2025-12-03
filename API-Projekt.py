@@ -19,7 +19,7 @@ params = {
     "language": "en-US",
     "page": 1
 }
-
+#Din far
 # Request
 response = requests.get(url, params=params)
 data = response.json()
