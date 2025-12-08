@@ -7,3 +7,4 @@ API_KEY = getenv("API_KEY")
 
 
 BASE_URL = "https://api.themoviedb.org/3"
+
