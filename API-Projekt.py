@@ -6,9 +6,6 @@ import random
 load_dotenv("key.env")
 API_KEY = getenv("API_KEY")
 
-if not API_KEY:
-    raise ValueError("API_KEY ikke fundet. Tjek at 'key.env' eksisterer og API_KEY er sat korrekt.")
-
 url = "https://api.themoviedb.org/3/movie/popular"
 
 params = {
